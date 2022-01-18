@@ -27,7 +27,7 @@ html {
 }
 .navbar ul li a:hover {
   font-weight: 600;
-  color: rgb(207, 197, 46) !important;
+  color: #058c42 !important;
 }
 .navbar ul li a {
   margin-left: 10px;
@@ -116,12 +116,12 @@ html {
 }
 
 .section-light {
-  background-color: #ffffff;
+  background-color: #04471c;
   color: #666;
 }
 
 .section-dark {
-  background-color: #282e34;
+  background-color: #04471c;
   color: #ddd;
 }
 
@@ -136,7 +136,7 @@ html {
   color: #fff;
 }
 .border.trans:hover{
-  background-color: rgb(179, 179, 179);
+  background-color: #058c42;
   opacity: 1;
   transition-duration: 0.4s;
 }
@@ -162,7 +162,7 @@ html {
 
 /* PARTNERS */
 .partners {
-  background: #162c3b;
+  background: #04471c;
   padding: 50px;
   text-align: center;
 }
