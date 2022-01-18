@@ -19,7 +19,9 @@ html {
   width: 100%;
   justify-content: center;
 }
-
+.hovereffect:hover{
+  color: #16d565;
+}
 .navbar .active a {
   font-size: large;
   font-weight: 500;
@@ -27,7 +29,7 @@ html {
 }
 .navbar ul li a:hover {
   font-weight: 600;
-  color: #058c42 !important;
+  color: #16d565 !important;
 }
 .navbar ul li a {
   margin-left: 10px;
@@ -116,12 +118,12 @@ html {
 }
 
 .section-light {
-  background-color: #04471c;
+  background-color: #000000;
   color: #666;
 }
 
 .section-dark {
-  background-color: #04471c;
+  background-color: #000000;
   color: #ddd;
 }
 
@@ -136,7 +138,7 @@ html {
   color: #fff;
 }
 .border.trans:hover{
-  background-color: #058c42;
+  background-color: #000000;
   opacity: 1;
   transition-duration: 0.4s;
 }
@@ -162,7 +164,7 @@ html {
 
 /* PARTNERS */
 .partners {
-  background: #04471c;
+  background: #000000;
   padding: 50px;
   text-align: center;
 }
