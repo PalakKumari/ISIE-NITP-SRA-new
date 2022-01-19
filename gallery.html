@@ -55,6 +55,7 @@
     <section>
       <div class="container-fluid p-0">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html" style="color: whitesmoke;"><img src="images/ISIE LOGO.jpg" class="logo" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" style="font-size: 24px;">
@@ -90,68 +91,77 @@
       </div>
     </section>
     <section class="topsection">
-      <div class="main">
-        <div class="cd-slider">
-          <ul>
-            <li>
-              <div
-                class="image"
-                style="background-image: url('images/2018 1.jpg')"
-              ></div>
-              <div class="content">
-                <h2>2018 HIGHLIGHTS</h2>
-                <a
-                  href="#year18"
-                  ><p style="text-decoration: none !important; color: inherit"
-                  >CHECK OUT 2018 GALLERY</p></a
-                >
+      <div
+      id="carouselExampleIndicators"
+      class="carousel slide hero-slides"
+      data-bs-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+        ></li>
+        <li
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+        ></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active firstimagecarousel">
+          <div class="container h-100 d-md-block">
+            <div class="row h-100 w-100">
+              <div class="col-12 col-md-9 col-lg-7 col-xl-12">
               </div>
-            </li>
-            <li>
-              <div
-                class="image"
-                style="background-image: url('images/2019 vehicle.jpeg')"
-              ></div>
-              <div class="content">
-                <h2>2019 HIGHLIGHTS</h2>
-                <a
-                  href="#year19"
-                  ><p style="text-decoration: none !important; color: inherit"
-                  >CHECK OUT 2019 GALLERY</p></a
-                >
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item secondimagecarousel">
+          <div class="container h-100 d-md-block">
+            <div class="row h-100">
+              <div class="col-12 col-md-9 col-lg-7 col-xl-6">
               </div>
-            </li>
-            <li>
-              <div
-                class="image"
-                style="background-image: url('images/2020 vehicle.jpeg')"
-              ></div>
-              <div class="content">
-                <h2>2020 HIGHLIGHTS</h2>
-                <a
-                  href="#year20"
-                  ><p style="text-decoration: none !important; color: inherit"
-                  >CHECK OUT 2020 GALLERY</p></a
-                >
-              </div>
-            </li>
-            <li>
-              <div
-                class="image"
-                style="background-image: url('images/innovation.jpeg')"
-              ></div>
-              <div class="content">
-                <h2>2021 HIGHLIGHTS</h2>
-                <a
-                  href="#year21"
-                  ><p style="text-decoration: none !important; color: inherit"
-                  >CHECK OUT 2021 GALLERY</p></a
-                >
-              </div>
-            </li>
-          </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item thirdimagecarousel">
+          <div class="container h-100 d-md-block">
+            <div class="row h-100">
+              <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+            </div>
+          </div>
         </div>
       </div>
+      </div>
+
+      
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- <div class="prtext">
+            <span class="border">ISIE NIT SRA</span>
+        </div> -->
+</section>
+
     </section>
 
     <section id="year18">
@@ -160,7 +170,7 @@
           <section id="grid-padding" class="gallery-block grid-gallery">
             <div class="container">
               <div class="heading">
-                <h2 style="font-size: 6rem;color: black;">2018 Gallery</h2>
+                <h2 style="font-size: 6rem;color: #16db65;">2018 Gallery</h2>
               </div>
               <div id="row-1" class="row">
                 <div id="grid-pics" class="col-md-6 col-lg-4 item">
@@ -226,15 +236,15 @@
           <section id="grid-padding" class="gallery-block grid-gallery">
             <div class="container">
               <div class="heading">
-                <h2 style="font-size: 6rem;color: black;">2019 Gallery</h2>
+                <h2 style="font-size: 6rem;color: #16db65;">2019 Gallery</h2>
               </div>
               <!-- ROW 1 -->
               <div id="row-1" class="row">
                 <div id="grid-pics" class="col-md-6 col-lg-4 item">
-                  <a class="lightbox" href="images/2019 1 (2).jpeg">
+                  <a class="lightbox" href="images/2019 2 (2).jpeg">
                     <img
                       class="img-fluid image scale-on-hover"
-                      src="images/2019 1 (2).jpeg"
+                      src="images/2019 1.jpeg"
                     />
                   </a>
                 </div>
@@ -347,7 +357,7 @@
           <section id="grid-padding" class="gallery-block grid-gallery">
             <div class="container">
               <div class="heading">
-                <h2 style="font-size: 6rem;color: black;">2020 Gallery</h2>
+                <h2 style="font-size: 6rem;color: #16db65;">2020 Gallery</h2>
               </div>
               <div id="row-1" class="row">
                 <div id="grid-pics" class="col-md-6 col-lg-4 item">
