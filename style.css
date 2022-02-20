@@ -19,7 +19,9 @@ html {
   width: 100%;
   justify-content: center;
 }
-
+.hovereffect:hover{
+  color: #16d565;
+}
 .navbar .active a {
   font-size: large;
   font-weight: 500;
@@ -117,12 +119,12 @@ html {
 }
 
 .section-light {
-  background-color: #ffffff;
+  background-color: #000000;
   color: #666;
 }
 
 .section-dark {
-  background-color: #282e34;
+  background-color: #000000;
   color: #ddd;
 }
 
@@ -137,7 +139,7 @@ html {
   color: #fff;
 }
 .border.trans:hover{
-  background-color: rgb(179, 179, 179);
+  background-color: #000000;
   opacity: 1;
   transition-duration: 0.4s;
 }
@@ -163,7 +165,7 @@ html {
 
 /* PARTNERS */
 .partners {
-  background: #162c3b;
+  background: #000000;
   padding: 50px;
   text-align: center;
 }
