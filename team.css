@@ -133,8 +133,8 @@ html {
 
 .heading {
   text-align: center;
-  color: whitesmoke;
-  background-color: #262626;
+  color: white;
+  /* background-color: #262626; */
   padding: 15px;
   margin: 25px auto;
 }

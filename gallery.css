@@ -7,9 +7,8 @@ html {
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #000;
-  background-color: #282e34 !important;
+  background-color: #000000 !important;
 }
-
 .navbar .active a {
   font-size: large;
   font-weight: 500;
@@ -21,7 +20,7 @@ body {
 }
 .navbar ul li a:hover {
   font-weight: 600;
-  color: rgb(207, 197, 46) !important;
+  color: #16db65 !important;
 }
 .navbar ul li a {
   margin-left: 12px;
@@ -83,23 +82,30 @@ body {
   color: #000;
 }
 
-.topsection .cd-slider {
-  position: relative;
-  width: 100%;
-  height: 50rem;
-  overflow: hidden;
-  margin-bottom: 8rem;
+#carouselExampleIndicators .carousel-item.firstimagecarousel {
+  background-image: url("images/2018 1.jpg");
 }
-.topsection .cd-slider li {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  visibility: hidden;
-  transition: visibility 0s 1s;
-  will-change: visibility;
+#carouselExampleIndicators .carousel-item.secondimagecarousel {
+  background-image: url("images/2019 1.jpeg");
 }
+#carouselExampleIndicators .carousel-item.thirdimagecarousel {
+  background-image: url("images/2020 1.jpg");
+}
+#carouselExampleIndicators .carousel-item {
+  height: 490px;
+  width: 100%;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item {
+  transition: 2s ease;
+  transition: transform 2s ease;
+}
+
+
+
+
 .topsection .image {
   position: absolute;
   top: 0;
@@ -126,7 +132,8 @@ body {
   font-size: 100px;
   padding: 1px;
   margin: 10px;
-  color: rgb(237, 241, 201);
+  /* color: rgb(237, 241, 201); */
+  color: red;
   text-overflow: ellipsis;
   overflow: hidden;
   -webkit-transform: translateY(-30%);
