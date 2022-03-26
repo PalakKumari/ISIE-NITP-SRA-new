@@ -19,7 +19,7 @@ html {
   width: 100%;
   justify-content: center;
 }
-.hovereffect:hover{
+.hovereffect:hover {
   color: #16d565;
 }
 .navbar .active a {
@@ -138,7 +138,7 @@ html {
   letter-spacing: 7px;
   color: #fff;
 }
-.border.trans:hover{
+.border.trans:hover {
   background-color: #000000;
   opacity: 1;
   transition-duration: 0.4s;
@@ -191,8 +191,9 @@ html {
   font-size: 18px;
   font-weight: 300;
   letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
 }
-
 /* FOOTER */
 
 .footer {
