@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -19,12 +22,214 @@ html {
   font-weight: 400;
   line-height: 1.7;
   min-height: 100vh;
-  color: rgb(240, 234, 234);
-  /* background: linear-gradient(to right, #000033, #1a1a1a); */
+  background-color: #000000 !important;
 }
 .navbar-custom ul {
   margin-left: 900px;
 }
+
+.main-body{
+  margin-top:150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading{
+  font-weight: normal; 
+  margin-left: -1121px;
+  line-height: 43.2px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #14CB4F;
+  font-style: normal;
+  font-feature-settings: 'ss01' on;
+}
+
+.right{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.right .content{
+  margin-top:158px;
+  margin-right:250px;
+  font-family: 'Lato', sans-serif;
+}
+
+.right .content h4{
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Lato', sans-serif;
+}
+
+.right .photo img{
+  margin-left:250px;
+}
+
+.line{
+  position: absolute;
+  width: 1067px;
+  border-top: 4px solid #16DC65;
+  left: 10px;
+  top: 683px;
+  background: #16DC65;
+}
+
+.left{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.left .content{
+  margin-top:390px;
+  margin-left:260px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Lato', sans-serif;
+}
+
+.left .photo img{
+  margin-top: 300px;
+  margin-right:320px;
+}
+
+.right-next{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.right-next .content{
+  margin-top:200px;
+  margin-right:250px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Lato', sans-serif;
+}
+
+.right-next .photo img{
+  margin-top: 100px;
+  margin-left:250px;
+}
+
+.left-next{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.left-next .content{
+  margin-top:200px;
+  margin-left:260px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Lato', sans-serif;
+}
+
+.left-next .photo img{
+  margin-top: 100px;
+  margin-right:320px;
+}
+
+.block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 120px;
+}
+
+.left-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-right .left-part{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  /* padding-right: 100px; */
+  margin-top: 50px;
+}
+
+.block .mid{
+  text-align: center;
+}
+
+.left-part .content,
+.right-part .content{
+  text-align: center;
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.left-right .right-part{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.left-right .photo{
+  padding-left: 250px;
+  padding-right: 250px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.line1{
+  width: 1200px;
+  border-top: 4px solid #16DC65;
+  left: 150px;
+  top: 5000px;
+  background: #16DC65;
+}
+
+.founders{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.founders h2{
+  color: #14CB4F;
+}
+
+.founders .images{
+  display: flex;
+  flex-direction: row;
+}
+
+.images .each-image{
+  padding: 30px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.images .each-image h6{
+  padding: 20px;
+}
+
+.images .each-image img{
+  height: 150px;
+  width: 150px;
+}
+
 .teamcards {
   position: relative;
   display: flex;
