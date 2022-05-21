@@ -25,12 +25,21 @@ html {
 .navbar .active a {
   font-size: large;
   font-weight: 500;
-  color: rgb(245, 245, 245) !important;
+  color: white !important;
 }
 .navbar ul li a:hover {
   font-weight: 600;
-  color: #058c42 !important;
+  color: white;
 }
+
+.nav-item .nav-link{
+  color: #14CB4F !important;
+}
+
+.nav-item .nav-link:hover{
+  color: white !important;
+}
+
 .navbar ul li a {
   margin-left: 10px;
 }
